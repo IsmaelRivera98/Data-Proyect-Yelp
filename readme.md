@@ -182,13 +182,13 @@ Este proyecto tiene como objetivo proporcionar a nuestro cliente una visión est
 
 **Función:** Este KPI se utiliza para medir la satisfacción del cliente y la calidad del servicio ofrecido por un restaurante específico. Proporciona información valiosa sobre la percepción de los clientes y ayuda a identificar áreas en las que el restaurante puede estar haciendo un buen trabajo. Una proporción alta de reseñas positivas refleja una experiencia positiva del cliente.
 
-# KPI de Tasa de Retención de Usuarios
+### KPI de Tasa de Retención de Usuarios
 **Descripción:** La Tasa de Retención de Usuarios es un indicador clave que mide la proporción de usuarios que continúan contribuyendo con consejos o recomendaciones en años posteriores en comparación con el año en que iniciaron su actividad en la plataforma. Esta métrica es esencial para evaluar la fidelización de los usuarios a lo largo del tiempo. Una disminución en la Tasa de Retención de Usuarios podría indicar una menor retención y participación de los usuarios en la plataforma.
 **Fórmula:** Tasa de retención de usuarios = (Usuarios que contribuyeron en el año actual y en años posteriores) / (Número total de usuarios)
 **Objetivo:** Aumentar en un 10% la Tasa de Retención de Usuarios cada año.
 **Función:** La Tasa de Retención de Usuarios es crucial para evaluar la fidelización de los usuarios en una plataforma de recomendaciones. Proporciona información sobre cuántos usuarios continúan participando y contribuyendo con consejos a lo largo del tiempo. Esto es fundamental para entender la lealtad de los usuarios y su compromiso con la plataforma. Una Tasa de Retención de Usuarios saludable indica una fuerte retención y participación de la comunidad, mientras que una disminución en esta tasa puede ser una señal de que se deben tomar medidas para mejorar la retención de usuarios.
 
-# KPI de Satisfacción de la Región
+### KPI de Satisfacción de la Región
 **Descripción:** El KPI de Satisfacción de la Región se basa en el análisis de sentimiento de las opiniones de los usuarios y clasifica estas opiniones por región. Para calcular este KPI, se asigna una puntuación de satisfacción a cada opinión en función de su sentimiento. Por ejemplo, se puede utilizar un sistema de puntuación de -1 (negativo) a +1 (positivo) para evaluar cada opinión. Luego, se calcula un promedio de estas puntuaciones para obtener la Puntuación de Satisfacción del Usuario para una región específica.
 **Fórmula:** Crecimiento en Satisfacción = (Puntuación de Satisfacción del año actual - Puntuación de Satisfacción del año anterior) / (Número total de usuarios)
 **Objetivo:** El objetivo es lograr un aumento del 5% en la satisfacción de los usuarios en la región en un período de 5 años.
@@ -196,10 +196,11 @@ Este proyecto tiene como objetivo proporcionar a nuestro cliente una visión est
 
 # Cronograma General
 El cronograma general del proyecto se divide en tres semanas, con tareas distribuidas en un período de siete días para las 2 primeras semanas y para la tercera un período de 4 días teniendo en cuenta que la Demo se presenta el día viernes de esta misma. Cada semana se enfoca en etapas clave del proyecto, desde la definición de objetivos y selección de tecnologías en la primera semana, hasta la implementación de un modelo de machine learning y su despliegue en la tercera semana. Este cronograma proporciona una estructura detallada que guía el desarrollo del proyecto, asegurando que cada tarea se realice en el momento adecuado y se cumplan los plazos establecidos.
-
+![image](https://drive.google.com/uc?id=1bZSUgyX-hXhI2bKLbiYVwGWReTPwhAFr)
 
 # Tabla de Dependencias de Tareas
-
+A continuación, se presenta una tabla de dependencias de tareas para el proyecto de análisis de datos que has planteado. Esta tabla muestra cómo algunas tareas dependen de la finalización de otras tareas dentro del proyecto.
+![image](https://drive.google.com/file/d/1uKnsHfjdsq3Kbc5gMHbBVxec8C5RF57A/view?usp=drive_link)
 
 # Tareas Asignadas
 Las tareas asignadas en un proyecto se distribuyen estratégicamente a medida que se avanza en el proyecto para garantizar una ejecución eficiente y eficaz. La distribución de tareas en la primera semana se realizó de la siguiente manera:
