@@ -196,11 +196,11 @@ Este proyecto tiene como objetivo proporcionar a nuestro cliente una visión est
 
 # Cronograma General
 El cronograma general del proyecto se divide en tres semanas, con tareas distribuidas en un período de siete días para las 2 primeras semanas y para la tercera un período de 4 días teniendo en cuenta que la Demo se presenta el día viernes de esta misma. Cada semana se enfoca en etapas clave del proyecto, desde la definición de objetivos y selección de tecnologías en la primera semana, hasta la implementación de un modelo de machine learning y su despliegue en la tercera semana. Este cronograma proporciona una estructura detallada que guía el desarrollo del proyecto, asegurando que cada tarea se realice en el momento adecuado y se cumplan los plazos establecidos.
-![image](https://drive.google.com/uc?id=1bZSUgyX-hXhI2bKLbiYVwGWReTPwhAFr)
+![image](Diagrama de Gant.png)
 
 # Tabla de Dependencias de Tareas
 A continuación, se presenta una tabla de dependencias de tareas para el proyecto de análisis de datos que has planteado. Esta tabla muestra cómo algunas tareas dependen de la finalización de otras tareas dentro del proyecto.
-![image](https://drive.google.com/file/d/1T3njZXswr5IQFsRc5V21aCUq6v6tiMny/view?usp=drive_link)
+![image](Dependencias.png)
 
 # Tareas Asignadas
 Las tareas asignadas en un proyecto se distribuyen estratégicamente a medida que se avanza en el proyecto para garantizar una ejecución eficiente y eficaz. La distribución de tareas en la primera semana se realizó de la siguiente manera:
