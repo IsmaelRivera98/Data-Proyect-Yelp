@@ -200,7 +200,7 @@ El cronograma general del proyecto se divide en tres semanas, con tareas distrib
 
 # Tabla de Dependencias de Tareas
 A continuación, se presenta una tabla de dependencias de tareas para el proyecto de análisis de datos que has planteado. Esta tabla muestra cómo algunas tareas dependen de la finalización de otras tareas dentro del proyecto.
-![image](https://drive.google.com/file/d/1uKnsHfjdsq3Kbc5gMHbBVxec8C5RF57A/view?usp=drive_link)
+![image](https://drive.google.com/file/d/1T3njZXswr5IQFsRc5V21aCUq6v6tiMny/view?usp=drive_link)
 
 # Tareas Asignadas
 Las tareas asignadas en un proyecto se distribuyen estratégicamente a medida que se avanza en el proyecto para garantizar una ejecución eficiente y eficaz. La distribución de tareas en la primera semana se realizó de la siguiente manera:
