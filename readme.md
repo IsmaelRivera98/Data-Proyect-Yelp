@@ -2,158 +2,38 @@
 
 En la era digital, la opinión de los usuarios se ha convertido en un recurso invaluable que influye significativamente en las decisiones de compra y en la estrategia de negocios. Plataformas de reseñas como Yelp y Google Maps han dado a los consumidores la capacidad de compartir sus experiencias sobre una amplia variedad de negocios, desde restaurantes hasta hoteles y otros servicios relacionados con el turismo y el ocio. En este contexto, las empresas han reconocido la importancia de comprender y aprovechar esta información para mejorar sus servicios, tomar decisiones estratégicas y anticipar las tendencias del mercado.
 
-Nuestra consultora de datos ha sido contratada para llevar a cabo un análisis del mercado estadounidense en nombre de un conglomerado de empresas de restaurantes y negocios afines. El objetivo de nuestro proyecto es obtener información valiosa de las opiniones de los usuarios en dos plataformas clave: Yelp y Google Maps. Además, planeamos cruzar estos datos, utilizar técnicas de análisis de sentimientos y predecir los sectores de negocios que probablemente experimentará un crecimiento o declive. También, se busca identificar ubicaciones estratégicas para la apertura de nuevos locales y crear un sistema de recomendación de negocios, no necesariamente limitado a restaurantes, basado en las experiencias previas de los usuarios.
+**Cliente:** Grupo empresarial con gran variedad de negocios en diferentes industrias
+**Problematica a resolver:** El cliente necesita encontrar enfoques efectivos para diferenciarse de sus competidores, con el fin de atraer y retener a una base de clientes sólida en un entorno empresarial altamente competitivo. Además, tiene la ambición de expandir su presencia hacia nuevos mercados, lo que implica la necesidad de identificar oportunidades estratégicas y adoptar estrategias de expansión efectivas. Por último, busca mejorar la fidelización de sus clientes actuales y al mismo tiempo aumentar su número.
 
-## Entregables
+# Entregables
 
-### Planteo de Objetivos
-Documento que define los objetivos del proyecto, incluyendo la recopilación de datos, análisis de sentimientos, predicción de tendencias, recomendaciones de ubicación y sistemas de recomendación.
+### Informe
+Documento que que tiene como objetivo proporcionar  información valiosa sobre las tendencias del mercado, la satisfacción de los clientes y las oportunidades de crecimiento en los diferentes rubros de negocio.
 
-### Stack Tecnológico
-Informe que detalla las tecnologías y herramientas que se utilizarán en cada etapa del ciclo de vida de los datos.
+### Modelo de machine learning
+Modelo de aprendizaje automatico que sera utilizado por el cliente para predecir el crecimiento de los diferentes rubros de negocio para ayudarlo a tomar decisiones informadas sobre a que tipo de negocio (rubro) puede invertir.
 
-### KPIs (Indicadores Clave de Desempeño)
-Documento que establece tres KPIs específicos, medibles y limitados en tiempo, relacionados con los objetivos del proyecto.
+### Sistema de recomendacion
+Sistema de recomendacion que sera utilizado por el cliente donde dado un tipo de negocio (rubro) este le devuelva los estados que tienen una mejor aceptacion del tipo de negocio.
 
-### Cronograma General
-Planificación detallada que incluye tareas, tiempos de ejecución y dependencias entre tareas, representada en un diagrama tipo Gantt.
-
-### EDA - Calidad
-Resumen del análisis exploratorio de datos que aborda tipos de datos, valores faltantes, duplicados, outliers, distribución, y otros aspectos de calidad de los datos.
-
-### ETL y Validación de Datos
-Desarrollo de un proceso ETL unificado para la extracción, transformación y carga de datos de manera reproducible, con un mecanismo de validación de datos.
-
-### Ciclo de Vida del Dato
-Documento que describe el ciclo completo de vida de los datos, detallando las tecnologías utilizadas en cada etapa.
-
-### Diseño del Modelo de Datos
-Diseño consciente del modelo de datos que se fundamenta en las necesidades del proyecto y su implementación técnica.
-
-### Infraestructura de Datos
-Desarrollo de una infraestructura de datos, ya sea en la nube o en un entorno local, que incluye un pipeline end-to-end y considera la disponibilidad de datos para el desarrollo de ML y análisis.
-
-### Automatización y Carga Incremental
-Implementación de un orquestador de tareas para la automatización de procesos ETL, con validación para evitar redundancias.
-
-### Diseño del Dashboard
-Creación de un dashboard con colores, gráficos y elementos visuales efectivos, que sea interactivo y permita explorar los datos de manera intuitiva.
-
-### Funcionalidad y Usabilidad
-Asegurar que el dashboard sea funcional y que ofrezca una experiencia de usuario óptima, incluyendo filtros y selecciones eficientes.
-
-### KPIs en el Dashboard
-Integración de los KPIs definidos en el dashboard para su representación visual adecuada.
-
-### EDA / Feature Selection
-Realización de un EDA profundo y selección de características basada en el análisis, con fundamentación para la elección del modelo.
-
-### Modelo de Machine Learning
-Desarrollo de un modelo funcional con ajuste de parámetros que cumple con las métricas objetivo.
-
-### Modelo ML en Producción
-Implementación del modelo de machine learning en la nube con accesibilidad a través de una interfaz gráfica o llamados a un endpoint.
+# Objetivos
 
 ## Objetivo General
 
-Este proyecto tiene como objetivo proporcionar a nuestro cliente una visión estratégica y orientada a datos de la dinámica del mercado, ayudándoles a tomar decisiones informadas sobre la expansión de sus negocios y a mejorar la satisfacción del cliente. La capacidad de anticipar tendencias y ofrecer recomendaciones basadas en datos es esencial en un entorno empresarial cada vez más competitivo y orientado hacia la satisfacción del consumidor.
+Este proyecto tiene como objetivo proporcionar al cliente información valiosa que le ayude a tomar decisiones informadas sobre dónde invertir, cómo mejorar la satisfacción de los clientes y cómo aumentar las ventas por medio del aumento de nuevos clientes.
 
 ## Objetivos Específicos del Proyecto
 
-### Recopilación de Datos
-- Extraer datos de Yelp y Google Maps, incluyendo reseñas, calificaciones, ubicaciones y otros detalles relevantes.
-- Integrar datos de múltiples fuentes en un Data Warehouse unificado.
+- Generar un informe de análisis que identifique tendencias en el mercado, la satisfacción de los clientes y las oportunidades de crecimiento, con la finalidad de proporcionar al cliente una visión clara y fundamentada de la situación actual del negocio, el comportamiento del mercado, permitiéndoles tomar decisiones estratégicas informadas para mejorar la satisfacción de los clientes, identificar oportunidades de crecimiento y mantenerse al tanto de las tendencias del mercado
+- Desarrollar un modelo de aprendizaje automático que pueda predecir el crecimiento de los rubros de negocios con el fin de proporcionar al cliente una herramienta precisa y eficaz para anticipar y planificar el crecimiento de sus diferentes rubros de negocios, permitiéndoles tomar decisiones estratégicas basadas en predicciones confiables y mejorando así su capacidad para aprovechar oportunidades y minimizar riesgos en un entorno empresarial dinámico.
+- Implementar un sistema de recomendación  donde dado un tipo de negocio (rubro) este le devuelva los estados que tienen una mejor aceptacion del tipo de negocio con la finalidad de proporcionar a los clientes una herramienta que les permita identificar los estados o regiones que presentan una alta aceptación y demanda para un tipo de negocio específico. Esto ayudará a los usuarios a tomar decisiones informadas sobre la ubicación de su negocio o sus actividades de interés, maximizando así sus oportunidades de éxito y rentabilidad en función de la demanda local
 
-### Análisis de Sentimientos
-- Aplicar análisis de sentimientos a las reseñas recopiladas para determinar la percepción de los usuarios con respecto a los negocios.
-- Identificar aspectos positivos y negativos en las opiniones de los usuarios.
 
-### Predicción de Tendencias
-- Desarrollar modelos de machine learning para predecir sectores de negocios que experimentaron crecimiento o declive en el mercado estadounidense.
-- Utilizar datos históricos y otros indicadores relevantes en las predicciones.
+# Stack tecnológico del proyecto
 
-### Recomendaciones de Ubicación
-- Utilizar técnicas de análisis espacial y machine learning para identificar ubicaciones estratégicas para la apertura de nuevos locales de restaurantes y negocios afines.
-- Considerar la densidad de competidores, demanda de servicios y otras variables.
 
-### Sistema de Recomendación
-- Crear un sistema de recomendación personalizado para los usuarios de Yelp y Google Maps.
-- Basar las recomendaciones en las experiencias previas de los usuarios y en sus preferencias.
 
-### Validación y Garantía de Calidad de Datos
-- Implementar mecanismos de validación de datos para asegurar la integridad y consistencia de la información en el Data Warehouse.
-- Identificar y abordar valores faltantes, duplicados y outliers en los datos.
-
-### Infraestructura de Datos
-- Establecer una infraestructura de datos que permita la automatización de procesos ETL (Extracción, Transformación y Carga) y la disponibilidad de datos para su uso en análisis y machine learning.
-
-### Diseño del Dashboard
-- Desarrollar un dashboard interactivo que presenta visualmente los resultados del análisis de datos y las predicciones.
-- Utilizar colores, gráficos y elementos visuales efectivos para mejorar la usabilidad y comprensión.
-
-### Interacción con el Modelo de Machine Learning
-- Desplegar el modelo de machine learning en la nube o en una plataforma accesible para el cliente.
-- Permitir a los usuarios interactuar con el modelo a través de una interfaz gráfica o llamadas a un endpoint.
-
-## Stack tecnológico del proyecto
-
-### Recopilación de Datos
-
-#### Extracción de Datos
-- Pandas (Python): Utilizaremos Python para cargar los datos directamente desde los archivos proporcionados.
-
-### Análisis de Sentimientos
-
-#### Transformación y Procesamiento de Datos
-- Pandas (Python): Realizaremos la limpieza y preparación de los datos utilizando Pandas.
-
-#### Análisis de Sentimientos
-- Bibliotecas de Procesamiento de Lenguaje Natural (NLP): Usaremos bibliotecas de NLP como NLTK o spaCy para realizar el análisis de sentimientos de las reseñas.
-
-### Predicción de Tendencias
-
-#### Machine Learning y Modelado de Datos
-- Scikit-Learn (Python): Implementaremos modelos de clasificación y regresión para predecir tendencias de crecimiento o declive en diferentes sectores de negocios.
-
-### Recomendaciones de Ubicación
-
-#### Machine Learning y Modelado de Datos
-- Scikit-Learn (Python): Utilizaremos algoritmos de machine learning para identificar ubicaciones estratégicas basadas en datos geoespaciales y otros indicadores.
-
-### Sistema de Recomendación
-
-#### Machine Learning y Modelado de Datos
-- Scikit-Learn (Python): Diseñaremos un sistema de recomendación basado en algoritmos de filtrado.
-
-### Validación y Garantía de Calidad de Datos
-
-#### Transformación y Procesamiento de Datos
-- Pandas (Python): Identificaremos y abordaremos valores faltantes, duplicados y outliers en los datos.
-
-### Infraestructura de Datos
-
-#### Almacenamiento de Datos
-- Base de Datos SQL: Utilizaremos una base de datos SQL como PostgreSQL o MySQL para almacenar datos limpios y procesados.
-- Data Warehouse en la Nube: Podemos utilizar servicios en la nube como Amazon Redshift o Google BigQuery para almacenar datos a gran escala.
-
-#### ETL y Automatización
-- Apache Spark (Python): Implementaremos ETL y procesamiento de datos a gran escala si es necesario.
-- Orquestador de Tareas: Emplearemos herramientas de orquestación como Apache Airflow para automatizar el flujo de datos.
-
-### Diseño del Dashboard
-
-#### Visualización de Datos
-- Bibliotecas de Visualización (Matplotlib, Seaborn): Crearemos gráficos y visualizaciones efectivas en Jupyter Notebooks.
-- Herramientas de Business Intelligence (Power BI): Para diseñar el dashboard interactivo.
-
-### Interacción con el Modelo de Machine Learning
-
-#### Machine Learning y Modelado de Datos
-- Scikit-Learn (Python): Implementaremos el modelo de machine learning.
-- Despliegue en la Nube: Plataformas en la Nube (Azure): Desplegaremos el modelo en la nube.
-- API: Proporcionaremos un endpoint para acceder al modelo a través de llamadas API.
-
-## KPIs
+# KPIs
 
 ### KPI de Participación de Usuarios
 **Descripción:** Se refiere al número promedio de consejos o recomendaciones que cada usuario aporta a lo largo de un período de tiempo específico en la plataforma. Este indicador es crucial para evaluar el nivel de involucramiento de los usuarios en la plataforma y su contribución a la comunidad. Una disminución en este valor podría indicar una menor participación de los usuarios y una posible disminución en el atractivo de la plataforma.
@@ -198,11 +78,11 @@ Este proyecto tiene como objetivo proporcionar a nuestro cliente una visión est
 El cronograma general del proyecto se divide en tres semanas, con tareas distribuidas en un período de siete días para las 2 primeras semanas y para la tercera un período de 4 días teniendo en cuenta que la Demo se presenta el día viernes de esta misma. Cada semana se enfoca en etapas clave del proyecto, desde la definición de objetivos y selección de tecnologías en la primera semana, hasta la implementación de un modelo de machine learning y su despliegue en la tercera semana. Este cronograma proporciona una estructura detallada que guía el desarrollo del proyecto, asegurando que cada tarea se realice en el momento adecuado y se cumplan los plazos establecidos.
 ![image](Diagrama_Gant.png)
 
-# Tabla de Dependencias de Tareas
+### Tabla de Dependencias de Tareas
 A continuación, se presenta una tabla de dependencias de tareas para el proyecto de análisis de datos que has planteado. Esta tabla muestra cómo algunas tareas dependen de la finalización de otras tareas dentro del proyecto.
 ![image](Dependencias.png)
 
-# Tareas Asignadas
+### Tareas Asignadas
 Las tareas asignadas en un proyecto se distribuyen estratégicamente a medida que se avanza en el proyecto para garantizar una ejecución eficiente y eficaz. La distribución de tareas en la primera semana se realizó de la siguiente manera:
 - En la primera semana del proyecto, se llevó a cabo la fase inicial de planificación y definición, lo que incluyó la elaboración del Planteo de Objetivos, la selección del Stack Tecnológico, la definición de KPIs (Indicadores Claves de Desempeño), la creación del Cronograma General (Diagrama de Gantt), el desarrollo del EDA preliminar y el avance del ETL.
 - La asignación de tareas en esta etapa se realizó de la siguiente forma:
