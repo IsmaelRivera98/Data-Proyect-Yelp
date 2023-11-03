@@ -2,8 +2,8 @@
 
 En la era digital, la opinión de los usuarios se ha convertido en un recurso invaluable que influye significativamente en las decisiones de compra y en la estrategia de negocios. Plataformas de reseñas como Yelp y Google Maps han dado a los consumidores la capacidad de compartir sus experiencias sobre una amplia variedad de negocios, desde restaurantes hasta hoteles y otros servicios relacionados con el turismo y el ocio. En este contexto, las empresas han reconocido la importancia de comprender y aprovechar esta información para mejorar sus servicios, tomar decisiones estratégicas y anticipar las tendencias del mercado.
 
-**Cliente:** Grupo empresarial con gran variedad de negocios en diferentes industrias
-**Problematica a resolver:** El cliente necesita encontrar enfoques efectivos para diferenciarse de sus competidores, con el fin de atraer y retener a una base de clientes sólida en un entorno empresarial altamente competitivo. Además, tiene la ambición de expandir su presencia hacia nuevos mercados, lo que implica la necesidad de identificar oportunidades estratégicas y adoptar estrategias de expansión efectivas. Por último, busca mejorar la fidelización de sus clientes actuales y al mismo tiempo aumentar su número.
+- **Cliente:** Grupo empresarial con gran variedad de negocios en diferentes industrias
+- **Problematica a resolver:** El cliente necesita encontrar enfoques efectivos para diferenciarse de sus competidores, con el fin de atraer y retener a una base de clientes sólida en un entorno empresarial altamente competitivo. Además, tiene la ambición de expandir su presencia hacia nuevos mercados, lo que implica la necesidad de identificar oportunidades estratégicas y adoptar estrategias de expansión efectivas. Por último, busca mejorar la fidelización de sus clientes actuales y al mismo tiempo aumentar su número.
 
 # Entregables
 
