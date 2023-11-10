@@ -33,7 +33,7 @@ Este proyecto tiene como objetivo proporcionar al cliente información valiosa q
 
 
 # Stack tecnológico del proyecto
-
+![image](Diagrama_Gant.png)
 
 
 # KPIs
@@ -67,14 +67,20 @@ Este proyecto tiene como objetivo proporcionar al cliente información valiosa q
 
 ### KPI de Tasa de Retención de Usuarios
 **Descripción:** La Tasa de Retención de Usuarios es un indicador clave que mide la proporción de usuarios que continúan contribuyendo con consejos o recomendaciones en años posteriores en comparación con el año en que iniciaron su actividad en la plataforma. Esta métrica es esencial para evaluar la fidelización de los usuarios a lo largo del tiempo. Una disminución en la Tasa de Retención de Usuarios podría indicar una menor retención y participación de los usuarios en la plataforma.
+
 **Fórmula:** Tasa de retención de usuarios = (Usuarios que contribuyeron en el año actual y en años posteriores) / (Número total de usuarios)
+
 **Objetivo:** Aumentar en un 10% la Tasa de Retención de Usuarios cada año.
+
 **Función:** La Tasa de Retención de Usuarios es crucial para evaluar la fidelización de los usuarios en una plataforma de recomendaciones. Proporciona información sobre cuántos usuarios continúan participando y contribuyendo con consejos a lo largo del tiempo. Esto es fundamental para entender la lealtad de los usuarios y su compromiso con la plataforma. Una Tasa de Retención de Usuarios saludable indica una fuerte retención y participación de la comunidad, mientras que una disminución en esta tasa puede ser una señal de que se deben tomar medidas para mejorar la retención de usuarios.
 
 ### KPI de Satisfacción de la Región
 **Descripción:** El KPI de Satisfacción de la Región se basa en el análisis de sentimiento de las opiniones de los usuarios y clasifica estas opiniones por región. Para calcular este KPI, se asigna una puntuación de satisfacción a cada opinión en función de su sentimiento. Por ejemplo, se puede utilizar un sistema de puntuación de -1 (negativo) a +1 (positivo) para evaluar cada opinión. Luego, se calcula un promedio de estas puntuaciones para obtener la Puntuación de Satisfacción del Usuario para una región específica.
+
 **Fórmula:** Crecimiento en Satisfacción = (Puntuación de Satisfacción del año actual - Puntuación de Satisfacción del año anterior) / (Número total de usuarios)
+
 **Objetivo:** El objetivo es lograr un aumento del 5% en la satisfacción de los usuarios en la región por año.
+
 **Función:** Este KPI tiene como objetivo evaluar la evolución de la satisfacción de los usuarios en una región específica a lo largo de un período de 5 años. Proporciona información clave sobre si la satisfacción del usuario está aumentando o disminuyendo con el tiempo. Una puntuación de satisfacción alta indica una satisfacción positiva de los usuarios, mientras que una puntuación baja sugiere una insatisfacción.
 
 ## Cambios Kpis
@@ -82,8 +88,11 @@ Se decide **eliminar los kpis de Tasa de Retención de Usuarios** debido a que e
 
 ### KPI de Negocios Abiertos
 **Descripción:** El KPI de Negocios Abiertos se basa en el recuento de la cantidad de negocios abiertos de una determinada area de negocio.
+
 **Fórmula:** Recuento de negocios abiertos (en funcionamiento)
+
 **Objetivo:** El objetivo es visualizar si existe un aumento en un 10% de la cantidad de negocios abiertos por año.
+
 **Función:** Este KPI tiene como objetivo evaluar la evolucion del mercado em la cual se quiere iniciar el negocio. Este proporciona informacion necesaria sobre la cantidad de negocios que continuan activos, lo cual nos ayuda a identificar si es viable abrir un negocio en un tipo de industria especifico. 
 
 # Cronograma General
