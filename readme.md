@@ -33,7 +33,7 @@ Este proyecto tiene como objetivo proporcionar al cliente información valiosa q
 
 
 # Stack tecnológico del proyecto
-![image](ciclo de vida del dato.png)
+![image](Ciclo_vida_dato.png)
 
 
 # KPIs
