@@ -27,9 +27,10 @@ Este proyecto tiene como objetivo proporcionar al cliente información valiosa q
 
 ## Objetivos Específicos del Proyecto
 
-- Generar un informe de análisis que identifique tendencias en el mercado, la satisfacción de los clientes y las oportunidades de crecimiento, con la finalidad de proporcionar al cliente una visión clara y fundamentada de la situación actual del negocio, el comportamiento del mercado, permitiéndoles tomar decisiones estratégicas informadas para mejorar la satisfacción de los clientes, identificar oportunidades de crecimiento y mantenerse al tanto de las tendencias del mercado
+- Generar un análisis que identifique tendencias en el mercado, la satisfacción de los clientes y las oportunidades de crecimiento, con la finalidad de proporcionar al cliente una visión clara y fundamentada de la situación actual del negocio, el comportamiento del mercado, permitiéndoles tomar decisiones estratégicas informadas para mejorar la satisfacción de los clientes, identificar oportunidades de crecimiento y mantenerse al tanto de las tendencias del mercado
 - Desarrollar un modelo de aprendizaje automático que pueda predecir el crecimiento de los rubros de negocios con el fin de proporcionar al cliente una herramienta precisa y eficaz para anticipar y planificar el crecimiento de sus diferentes rubros de negocios, permitiéndoles tomar decisiones estratégicas basadas en predicciones confiables y mejorando así su capacidad para aprovechar oportunidades y minimizar riesgos en un entorno empresarial dinámico.
 - Implementar un sistema de recomendación  donde dado un tipo de negocio (rubro) este le devuelva los estados que tienen una mejor aceptacion del tipo de negocio con la finalidad de proporcionar a los clientes una herramienta que les permita identificar los estados o regiones que presentan una alta aceptación y demanda para un tipo de negocio específico. Esto ayudará a los usuarios a tomar decisiones informadas sobre la ubicación de su negocio o sus actividades de interés, maximizando así sus oportunidades de éxito y rentabilidad en función de la demanda local
+**Cambio de objetivos:** Debido al cambio que se realizo en los entregables, se elimina el segundo objetivo especifico
 
 
 # Stack tecnológico del proyecto
