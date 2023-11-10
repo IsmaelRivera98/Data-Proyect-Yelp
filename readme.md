@@ -16,6 +16,9 @@ Modelo de aprendizaje automatico que sera utilizado por el cliente para predecir
 ### Sistema de recomendacion
 Sistema de recomendacion que sera utilizado por el cliente donde dado un tipo de negocio (rubro) este le devuelva los estados que tienen una mejor aceptacion del tipo de negocio.
 
+## Cambio Entregables
+Teniendo en cuenta el tiempo disponible para el desarrollo de los entregables y la complejidad de los mismos se habla con el cliente para entregar el sistema de recomendacion unicamente.
+
 # Objetivos
 
 ## Objetivo General
@@ -40,25 +43,25 @@ Este proyecto tiene como objetivo proporcionar al cliente información valiosa q
 
 **Participacion de usuarios** = Numero total de reviews / Numero total de usuarios
 
-**Objetivo:** aumentar la Participación de Usuarios en un 10% cada año, lo que indicaría un crecimiento saludable de la comunidad.
+**Objetivo:** Aumentar la participación de usuarios en un 10% cada año, lo que indicaría un crecimiento saludable de la comunidad.
 
 **Función:** Este KPI sirve para medir la interacción y el compromiso de los usuarios en una plataforma de reseñas. Permite a las empresas y administradores de la plataforma evaluar la salud y la vitalidad de la comunidad de usuarios. Una alta participación de usuarios generalmente indica un alto nivel de satisfacción y compromiso con la plataforma, mientras que una disminución en este KPI puede señalar problemas que requieren atención.
 
 ### KPI de Proporción de Reseñas Negativas
-**Descripción:** Se refiere a la proporción de reseñas negativas en comparación con el número total de reseñas de un negocio en una plataforma de reseñas, como Yelp o Google Maps. Las "reseñas negativas" se definen generalmente según una calificación específica, como 1 o 2 estrellas, o basadas en el análisis de sentimiento de las reseñas. Esta métrica es esencial para evaluar la percepción general de los clientes sobre un negocio y su nivel de satisfacción. Una proporción baja de reseñas negativas suele ser un indicador de una alta satisfacción del cliente.
+**Descripción:** Se refiere a la proporción de reseñas negativas en comparación con el número total de reseñas de un negocio en una plataforma de reseñas, como Yelp o Google Maps. Las "reseñas negativas" se definen generalmente según una calificación específica (solo se tendra en cuenta la cantidad de estrellas, donde si la reseña tiene 1 o 2 estrellas esta se considera negativa). Esta métrica es esencial para evaluar la percepción general de los clientes sobre un negocio y su nivel de satisfacción. Una proporción baja de reseñas negativas suele ser un indicador de una alta satisfacción del cliente.
 
 **Proporción de reseñas negativas** = Número total de reseñas negativas / Número total de reseñas
 
-**Objetivo:** reducir la Proporción de Reseñas Negativas en un 5% cada trimestre.
+**Objetivo:** reducir la Proporción de Reseñas Negativas en un 5% cada año.
 
 **Función:** Este KPI se utiliza para medir la satisfacción del cliente y la calidad del servicio ofrecido por un negocio. Proporciona información valiosa sobre la percepción de los clientes y ayuda a identificar problemas o áreas de mejora. Una proporción baja de reseñas negativas es indicativa de una experiencia positiva del cliente, mientras que una alta proporción de reseñas negativas puede señalar problemas que requieren atención.
 
 ### KPI de Proporción de Reseñas Positivas
-**Descripción:** se refiere a la proporción de reseñas positivas en comparación con el número total de reseñas de un restaurante específico en una plataforma de reseñas. Las "reseñas positivas" pueden definirse según una calificación específica de estrellas o mediante un análisis de sentimiento de las reseñas escritas. Esta métrica permite evaluar la percepción general de los clientes sobre el restaurante y su nivel de satisfacción. Un aumento en la proporción de reseñas positivas o su estabilidad indica una buena satisfacción del cliente.
+**Descripción:** se refiere a la proporción de reseñas positivas en comparación con el número total de reseñas de un restaurante específico en una plataforma de reseñas. Las "reseñas positivas" pueden definirse según una calificación específica de estrellas (si la reseña tiene 4 o 5 estrellas se considera positiva). Esta métrica permite evaluar la percepción general de los clientes sobre el restaurante y su nivel de satisfacción. Un aumento en la proporción de reseñas positivas o su estabilidad indica una buena satisfacción del cliente.
 
 **Proporción de reseñas positivas** = Número total de reseñas positivas / Número total de reseñas
 
-**Objetivo:** Se espera que la Proporción de Reseñas Positivas aumente o se mantenga estable cada año.
+**Objetivo:** Se espera que la Proporción de Reseñas Positivas aumente 5% estable cada año.
 
 **Función:** Este KPI se utiliza para medir la satisfacción del cliente y la calidad del servicio ofrecido por un restaurante específico. Proporciona información valiosa sobre la percepción de los clientes y ayuda a identificar áreas en las que el restaurante puede estar haciendo un buen trabajo. Una proporción alta de reseñas positivas refleja una experiencia positiva del cliente.
 
@@ -71,8 +74,17 @@ Este proyecto tiene como objetivo proporcionar al cliente información valiosa q
 ### KPI de Satisfacción de la Región
 **Descripción:** El KPI de Satisfacción de la Región se basa en el análisis de sentimiento de las opiniones de los usuarios y clasifica estas opiniones por región. Para calcular este KPI, se asigna una puntuación de satisfacción a cada opinión en función de su sentimiento. Por ejemplo, se puede utilizar un sistema de puntuación de -1 (negativo) a +1 (positivo) para evaluar cada opinión. Luego, se calcula un promedio de estas puntuaciones para obtener la Puntuación de Satisfacción del Usuario para una región específica.
 **Fórmula:** Crecimiento en Satisfacción = (Puntuación de Satisfacción del año actual - Puntuación de Satisfacción del año anterior) / (Número total de usuarios)
-**Objetivo:** El objetivo es lograr un aumento del 5% en la satisfacción de los usuarios en la región en un período de 5 años.
+**Objetivo:** El objetivo es lograr un aumento del 5% en la satisfacción de los usuarios en la región por año.
 **Función:** Este KPI tiene como objetivo evaluar la evolución de la satisfacción de los usuarios en una región específica a lo largo de un período de 5 años. Proporciona información clave sobre si la satisfacción del usuario está aumentando o disminuyendo con el tiempo. Una puntuación de satisfacción alta indica una satisfacción positiva de los usuarios, mientras que una puntuación baja sugiere una insatisfacción.
+
+## Cambios Kpis
+Se decide **eliminar los kpis de Tasa de Retención de Usuarios** debido a que el kpi no estaba acorde con la base de datos trabajada debido a que la base de datos no proporciona la cantidad de veces que un usuario va a un lugar, por lo que se procede a **agregar un nuevo kpi el cual sera el siguiente.**
+
+### KPI de Negocios Abiertos
+**Descripción:** El KPI de Negocios Abiertos se basa en el recuento de la cantidad de negocios abiertos de una determinada area de negocio.
+**Fórmula:** Recuento de negocios abiertos (en funcionamiento)
+**Objetivo:** El objetivo es visualizar si existe un aumento en un 10% de la cantidad de negocios abiertos por año.
+**Función:** Este KPI tiene como objetivo evaluar la evolucion del mercado em la cual se quiere iniciar el negocio. Este proporciona informacion necesaria sobre la cantidad de negocios que continuan activos, lo cual nos ayuda a identificar si es viable abrir un negocio en un tipo de industria especifico. 
 
 # Cronograma General
 El cronograma general del proyecto se divide en tres semanas, con tareas distribuidas en un período de siete días para las 2 primeras semanas y para la tercera un período de 4 días teniendo en cuenta que la Demo se presenta el día viernes de esta misma. Cada semana se enfoca en etapas clave del proyecto, desde la definición de objetivos y selección de tecnologías en la primera semana, hasta la implementación de un modelo de machine learning y su despliegue en la tercera semana. Este cronograma proporciona una estructura detallada que guía el desarrollo del proyecto, asegurando que cada tarea se realice en el momento adecuado y se cumplan los plazos establecidos.
